@@ -1,0 +1,236 @@
+
+        #cont{
+            display: flex;
+            font-family: sans-serif;
+            font-size: 14px;
+            flex-direction: column;
+            background-color: rgb(20, 20, 30);
+            width: 100%;
+            padding-left: 0px;
+            padding-right: 0px;
+            border-radius: 20px 20px 20px 20px;
+            border-radius: 20px;
+            position: relative;
+            height: 100%;
+            transition: all 1s;
+
+
+        }
+        
+        #cont #header{
+            display: flex;
+            background-color:aliceblue;
+            padding: 5px;
+            position: fixed;
+            align-items: center;
+            justify-content: space-between;
+            width: 97.5%;
+            top: 0;
+            
+            
+        }
+        #header h2{
+            color: rgb(50, 200, 150);
+            font-size: 30px;
+        }
+        #header a{
+            color: black;
+            text-decoration: none;
+            font-size: 25px;
+            margin-right: 10px;
+        }
+        #header a:hover{
+            color: rgb(50, 200, 150);
+        }
+        #home{
+            display: flex;
+            background-color: aliceblue;
+            height: 400px;
+            margin-top: 50px;
+            padding-top: 70px;
+        }
+        #home #description{
+            width: 500px;
+            margin-bottom: 25px;
+            padding: 20px;
+            margin-top: 25px;
+        }
+        #home img{
+            width: 500px;
+            height: 570px;
+        }
+        button{
+            background-color: rgb(50, 200, 150);
+            color: white;
+            padding: 7px;
+            border: none;
+            font-size: 18px;
+        }
+        #about{
+            background-color: rgb(20, 20, 30);
+            display: flex;
+            justify-content: space-around;
+            padding: 20px;
+            align-items: center;
+        }
+        #about #description{
+            width: 300px;
+            color: white;
+        }
+        #about img{
+            width: 200px;
+            height: 250px;
+            padding-top: 10px;
+            border: 5px solid rgb(50, 200, 150);
+        }
+        #about h3{
+            color: rgb(50, 200, 150);
+        }
+        #skills{
+            background-color: rgb(20, 20, 30);
+            margin-top: 50px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 50px;
+            color: white;
+        }
+        #skills #level .language #pourcent{
+            background-color: rgb(50, 200, 150);
+            width: 50%;
+            height: 5px;
+        }
+        #skills #level .language .cent{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+        }
+        #skills #level .language .cent .left{
+            display: flex;
+            align-items: center;
+            padding-left: 5px;
+
+        }
+        #skills #level .language{
+            width: 300px;
+            padding-right: 5px;
+            border-radius: 5px;
+            background-color: rgb(35, 35, 55);
+            margin: 10px;
+        }
+        #skills #level .language .cent .left i{
+            margin-right: 15px;
+            font-size: 40px;
+            color: rgb(50, 200, 150);
+        }
+        #skills #level .language .cent .left h3{
+            color: rgb(50, 200, 150);
+        }
+        #skills img{
+            width: 500px;
+            height: 295px;
+            margin-top: 175px;
+        }
+        #portofolio{
+            color: white;
+
+        }
+        #portofolio #services{
+            display: flex;
+        }
+        #portofolio #services .service{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            background-color: rgb(35, 35, 55);
+            padding: 20px;
+            width: 250px;
+            margin: 20px;
+        }
+        #portofolio #services .service img{
+            display: flex;
+            justify-content: center;
+            width: 100px;
+            height: 120px;
+            padding-top: 10px;
+        }
+        #portofolio #services .service img{
+            border: 3px solid rgb(50, 200, 150);
+            border-radius: 50%;
+        }
+        #portofolio h1{
+            border-bottom: 2px solid rgb(50, 200, 150);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 150px;
+
+        }
+        #contact{
+            margin: 50px;
+        }
+        #contact h1{
+            border-bottom: 2px solid rgb(50, 200, 150);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 120px;
+            color: white;
+            margin-bottom: 50px;
+        }
+        #contact #sections{
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+        }
+        #contact #sections #right{
+            display: flex;
+            flex-direction: column;
+            align-items: baseline;
+            margin-left: 80px;
+            margin-right: 50px;
+        }
+        #contact #sections #right input, #sections #right textarea {
+            width: 100%;
+            margin-bottom: 10px;
+            padding: 5px;
+            border: none;
+            color: white;
+            border-radius: 5px;
+            border-bottom: 3px solid rgb(50, 200, 150);
+            background-color: rgb(35, 35, 55);
+        }
+        #contact  #sections #right button{
+            border-radius: 5px;
+        }
+        #contact #sections #left{
+            display: flex;
+            flex-direction: column;
+            align-items: baseline;
+        }
+        #contact #sections #left .us{
+            margin: 10px;
+            
+        }
+        #contact #sections #left i{
+            color: rgb(50, 200, 150);
+            font-size: 17px;
+            margin-right: 12px;
+
+        }
+        #contact  #sections #left  span{
+            color: white;
+            font-size: 17px;
+        }
+        #footer{
+            background-color: rgb(50, 200, 150);
+            font-size: 18px;
+            color: white;
+            justify-content: center;
+            display: flex;
+            align-items: center;
+            padding: 10px;
+            border-radius: 0px 0px 20px 20px;
+        }
