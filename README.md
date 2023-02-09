@@ -1,3 +1,2 @@
 # Portofolio
-Professional portofolio
-This is my portofolio
+This is my profesional portofolio
