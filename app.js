@@ -1,5 +1,5 @@
 
-        var cont = document.getElementById('cont');
+        var cont7 = document.getElementById('cont');
         var home = document.querySelector('.home');
         var about = document.querySelector('.about');
         var skills = document.querySelector('.skills');
