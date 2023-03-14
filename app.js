@@ -6,7 +6,7 @@
         var portofolio= document.querySelector('.portofolio');
         var contact = document.querySelector('.contact');
 
-        cont.style.top= "0px"
+        cont.style.top="0px"
 
         home.addEventListener('click', function(){
             cont.style.top= "0px"
