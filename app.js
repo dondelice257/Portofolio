@@ -9,7 +9,7 @@
         cont.style.top="0px"
 
         home.addEventListener('click', function(){
-            cont.style.top="0px"
+            cont.style.top= "0px"
         });
         about.addEventListener('click', function(){
             cont.style.top="-450px"
