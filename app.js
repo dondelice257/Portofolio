@@ -3,7 +3,7 @@
         var home = document.querySelector('.home');
         var about = document.querySelector('.about');
         var skills = document.querySelector('.skills');
-        var portofolio = document.querySelector('.portofolio');
+        var portofolio= document.querySelector('.portofolio');
         var contact = document.querySelector('.contact');
 
         cont.style.top="0px"
