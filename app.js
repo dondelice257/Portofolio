@@ -4,7 +4,7 @@
         var about = document.querySelector('.about');
         var skills = document.querySelector('.skills');
         var portofolio= document.querySelector('.portofolio');
-        var contact = document.querySelector('.contact');
+        var contact =document.querySelector('.contact');
 
         cont.style.top="0px"
 
