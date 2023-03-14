@@ -21,6 +21,6 @@
             cont.style.top="-1400px"
         });
         contact.addEventListener('click', function(){
-            cont.style.top="-1850px"
+            cont.style.top="-1860px"
         });
 
